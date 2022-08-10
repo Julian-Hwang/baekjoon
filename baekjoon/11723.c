@@ -11,6 +11,7 @@ int main()
     while (i--) {
         scanf("%s", arr);
 
+        
         if (strcmp(arr, "all") == 0) {
             s = (1 << 20) - 1;
             continue;
